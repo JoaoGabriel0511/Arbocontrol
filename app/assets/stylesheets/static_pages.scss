@@ -1,0 +1,256 @@
+// Place all the styles related to the static-pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+@font-face {
+    font-family: "Comfortaa";
+    font-weight: bold;
+    src: url("Comfortaa-Bold.ttf");
+}
+
+html{
+  font-size: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.logo-arbo {
+    color: #00A310;
+    font-size: 500%;
+    font-family: "Comfortaa";
+}
+
+.footer {
+    background-color: #04224A;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.texto-footer {
+    color: white;
+    font-size: 150%;
+    text-align: right;
+    padding-top: 2.5%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.space-1 {
+    padding: 2%;
+}
+
+.space-2 {
+    padding: 1%;
+}
+
+.space-5 {
+    padding-top: 14.5%;
+}
+
+.space-3 {
+    padding: 2%;
+}
+
+.space-4 {
+    padding: 0%;
+}
+
+.titulo-home {
+    color: #27AE60;
+    font-size: 450%;
+}
+
+.subtitulo-home {
+    text-align: center;
+    color: #2F80ED;
+    font-size: 300%;
+}
+
+.tracejado-titulo-home {
+    width: 100% !important;
+    padding-right: 141.2% !important;
+    background-color: #F2C94C;
+    overflow: hidden;
+}
+
+.circulo {
+    width: 140%;
+    border-radius: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 200%;
+}
+
+.boletins {
+    background-color: #2F80ED;
+}
+
+.mapa {
+    background-color: #F2C94C;
+}
+
+.estatistica {
+    background-color: #56CCF2;
+}
+
+.historico {
+    background-color: #219653;
+}
+
+.estrategia {
+    background-color: #F2994A;
+}
+
+.referencia {
+    background-color: #333333;
+}
+
+.quiz {
+    background-color: #6FCF97;
+}
+
+.alertar {
+    background-color: #EB5757;
+}
+
+.circulo h3 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.circulo img {
+    max-width: 70%;
+    max-height: 70%;
+    position: relative;
+    left: 14.5%;
+}
+
+.tracejado-circulo {
+    background-color: white;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.link-circulo:hover {
+    text-decoration: none;
+}
+
+.voltar-home {
+    text-align: center;
+}
+
+.imagem-mapa {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.voltar-home {
+    background-color: rgb(18, 16, 131);
+    border-radius: 100%;
+    max-width: 10%;
+    max-height: 100%;
+}
+
+.selection-table {
+    margin-top: 30%;
+    margin-bottom: 30%;
+    background-color: rgb(64, 108, 228);
+    border-style: solid;
+    border-width: 10%;
+    border-radius: 5%;
+    padding-right: 0%;
+}
+
+.selection-table .row {
+    margin: 10%;
+}
+
+.selection-table a {
+    width: 50%;
+    padding-top: 12.5%;
+    padding-bottom: 12.5%;
+}
+
+#statistics-image {
+    margin-top: 10%;
+}
+
+body {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 426px) {
+    .tracejado-titulo-home {
+        padding-right: 125% !important;
+    }
+    .logo-arbo {
+        font-size: 400%;
+    }
+    .div-sus {
+        width: 200%;
+        height: 200%;
+    }
+    .parallelogram{
+      position: absolute;
+      top: -37% !important;
+      left: -15% !important;
+    }
+}
+
+@media only screen and (min-width:750px) and (max-width:1040px) {
+    .circulo h1 {
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width:425px) and (min-width:321px) {
+    .circulo {
+        width: 70%;
+    }
+    .tracejado-titulo-home {
+        padding-right: 80% !important;
+    }
+}
+
+.parallelogram {
+  width: 70em;
+  height: 40em;
+  -webkit-transform: skew(-30deg);
+  -moz-transform: skew(-30deg);
+  -o-transform: skew(-30deg);
+  background: #9da1a1;
+  position: absolute;
+  top:-34%;
+  left:-4%;
+  border: 0.5em;
+  border-style: solid;
+  border-color: #15acf2;
+}
+
+nav{
+  background-color: #1a252f !important;
+}
+
+.link-header{
+  padding-left: 4em !important;
+}
+
+.link-home{
+  color: #0065f2;
+}
+
+.link-home:hover{
+  text-decoration: none;
+  color: #0065f2;
+}
+
+
+
